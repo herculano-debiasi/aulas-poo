@@ -1,4 +1,4 @@
-package construtores;
+package aula1709.construtores;
 
 public class AlunoConstrutorPadrao {
     public static void main(String[] args) {

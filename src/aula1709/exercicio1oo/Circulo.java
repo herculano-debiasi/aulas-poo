@@ -1,4 +1,4 @@
-package exercicio1oo;
+package aula1709.exercicio1oo;
 
 public class Circulo {
     public final double PI = 3.14159;

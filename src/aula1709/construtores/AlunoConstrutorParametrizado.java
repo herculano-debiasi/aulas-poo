@@ -1,8 +1,8 @@
-package construtores;
+package aula1709.construtores;
 
 public class AlunoConstrutorParametrizado {
     public static void main(String[] args) {
-        System.out.println("Teste com construtores parametrizados\n");
+        System.out.println("Teste com aula1709.construtores parametrizados\n");
 
         Aluno maria = new Aluno("Maria das Dores", 20, 1.68);
         System.out.printf("%s - Idade: %d anos - Altura: %.2f m\n\n",

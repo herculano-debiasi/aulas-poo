@@ -1,4 +1,4 @@
-package exercicio1oo;
+package aula1709.exercicio1oo;
 
 public class TestaContaBancaria {
     public static void main(String[] args) {
