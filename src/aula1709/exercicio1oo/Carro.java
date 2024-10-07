@@ -10,7 +10,9 @@ public class Carro {
     }
 
     public void frear() {
-        this.velocidadeAtual -= 10;
+        if (velocidadeAtual >= 10) {
+            this.velocidadeAtual -= 10;
+        }
     }
 
     public void exibirVelocidadeAtual() {

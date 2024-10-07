@@ -22,5 +22,10 @@ public class TestaCarro {
         }
         ferrari.frear();
         ferrari.exibirVelocidadeAtual();
+
+        for (int i=0; i<500; i++) {
+            ferrari.frear();
+        }
+        ferrari.exibirVelocidadeAtual();
     }
 }
