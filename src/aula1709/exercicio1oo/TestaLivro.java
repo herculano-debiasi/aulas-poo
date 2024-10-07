@@ -8,16 +8,19 @@ public class TestaLivro {
         java.ano = 2024;
         java.editora = "Java-lee";
 
-        java.status();
+        java.verificarStatus();
+        System.out.println();
 
         java.emprestar();
-        java.status();
+        java.verificarStatus();
+        System.out.println();
+
         if (java.estahEmprestado()) {
-            System.out.println("Livro Java está atualmente emprestado!");
+            System.out.println("Livro Java está atualmente emprestado!\n");
         }
 
         java.devolver();
-        java.status();
+        java.verificarStatus();
         if (java.estahDisponivel()) {
             System.out.println("Livro Java está disponível para empréstimo!");
         }
