@@ -5,6 +5,8 @@ public class TestaRetangulo {
         Retangulo retangulo = new Retangulo();
         retangulo.altura = 5;
         retangulo.base = 10;
+
+        System.out.println("Área = " + retangulo.calcularArea());
         retangulo.imprimirArea();
     }
 }
