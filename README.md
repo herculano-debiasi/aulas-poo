@@ -38,3 +38,10 @@ Tarefas:
 > [!CAUTION]
 :heart:, :shit:, :+1:, :smile:
 [Lista de emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+Tabelas:
+Código | Descrição do Item | Preço (R$)
+:---: | --- | ---:
+1 | Computador | 8.999,99
+2 | *Notebook* | 4.999,99
+3 | *Smartphone* | 3.999,99
