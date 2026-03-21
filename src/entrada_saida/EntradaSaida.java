@@ -4,14 +4,13 @@ import java.util.Scanner;
 
 public class EntradaSaida {
     public static void main(String[] args) {
-        String nome;
         int idade;
         double salario;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o seu nome: ");
-        nome = scanner.nextLine();
+        String nome = scanner.nextLine();
 
         System.out.print("Digite a sua idade: ");
         idade = scanner.nextInt();
