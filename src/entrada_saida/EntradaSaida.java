@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class EntradaSaida {
     public static void main(String[] args) {
+        int idade;
         double salario;
 
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +13,7 @@ public class EntradaSaida {
         String nome = scanner.nextLine();
 
         System.out.print("Digite a sua idade: ");
-        int idade = scanner.nextInt();
+        idade = scanner.nextInt();
 
         System.out.print("Digite o seu salário: ");
         salario = scanner.nextDouble();
